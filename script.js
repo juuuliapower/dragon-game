@@ -16,7 +16,7 @@ const coinImg = new Image();
 coinImg.src = 'images/coin_prev_ui-removebg-preview.png';
 
 const backgroundImg = new Image();
-backgroundImg.src = 'images/background5.png';
+backgroundImg.src = 'images/background2.png';
 
 dragonImg.onload = () => console.log('Dragon image loaded successfully');
 dragonImg.onerror = () => console.error('Failed to load dragon image');
